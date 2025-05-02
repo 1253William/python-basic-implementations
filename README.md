@@ -13,6 +13,22 @@ This repository includes:
 - 💡 Logic puzzles and assessments
 - 🧪 Basic unit tests (where relevant)
 
+###
+Write code for all parts of the exercise -  evaluation focuses on:
+- your approach/method,
+- code quality,
+- testing methods,
+- problem-solving skills. 
+
+- Think and say aloud to the hearing of the technical reviewer
+
+The goal is to test your ability to:
+- Maths Part: Understand mathematical concepts.
+- String Part: Understand string operations and methods.
+- Write efficient, readable, and accurate code.
+Handle different string formats, potential errors and edge cases.
+
+
 ---
 
 ## Getting Started
