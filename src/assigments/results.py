@@ -88,3 +88,35 @@ print("The maximum number is:", maximum)
 ##70-79	C
 ##60-69	D
 ##Below 60	F
+
+    # accepts score in range R = [0, 1, 2, 3, 4, 5, ...n, 100] as input
+    # let input be n in range R,
+    # input must be a number in range, n exists in R, if not, bounce
+    # Using grade scale ( A, B, C, D , F) determine that n maps to one of these,
+    # print result
+
+    # ACCEPT n as input, n -> score
+    # CHECK for n in R, if not bounce
+    # MAP n to A || B || C || D || F
+    # PRINT grade
+
+score = int(input("Enter your grade ( 0 t0 100): ")) #get a score from the user
+
+    #the score is in range
+if  0 <= score <= 100:
+    #determine the grade based on the score
+    if score >= 90:
+        grade =  'A'
+    elif score >= 80:
+        grade = 'B'
+    elif score >= 70:
+        grade = 'C'
+    elif score >= 60:
+        grade = 'D'
+    else:
+        grade = 'F'
+
+    #print grade
+    print("Your grade is:", grade)
+else:
+    print("Invalid score. Please enter a number between 0 and 100.")
